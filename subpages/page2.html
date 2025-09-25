@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>分页面 2</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+  <main class="container">
+    <div class="nav-back"><a href="/index.html">← 返回首页</a></div>
+    <header class="header">
+      <h1>页面 2</h1>
+      <p>此页包含：文字输入区、全景图片空间、视频空间</p>
+    </header>
+
+    <section class="section" aria-label="文字输入">
+      <h2>输入文字</h2>
+      <textarea class="textarea" placeholder="在此输入你的文字..."></textarea>
+      <p class="help">可自由输入段落文字，支持换行。</p>
+    </section>
+
+    <section class="section" aria-label="全景图片">
+      <h2>全景图片空间</h2>
+      <div class="panorama">
+        <p>在此放置全景图片（建议宽图；21:9 比例更佳）</p>
+      </div>
+      <p class="help">将你的全景图 URL 放入此容器内，或替换为 <img> 元素。</p>
+    </section>
+
+    <section class="section" aria-label="视频区域">
+      <h2>视频空间</h2>
+      <div class="video-wrap">
+        <video controls preload="metadata" poster="" src=""></video>
+      </div>
+      <p class="help">为 <video> 设置 src 即可播放本地或网络视频。</p>
+    </section>
+
+    <div class="footer-note">页面 2 · 你可以替换内容与媒体资源</div>
+  </main>
+</body>
+</html>
